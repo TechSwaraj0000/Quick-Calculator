@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+.main{
+  background-color: bisque;
+  background-size: cover;
+}
+.container {
+  background-color: #88f1f8;
+  border-radius: 6px;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom:50px;
+}
+
+.btn {
+  padding: 20px;
+  margin: 0 5px;
+  width: 54px;
+  background-color: rgb(242, 239, 235);
+  border: 2px solid rgb(240, 57, 57);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+#inputDisplay {
+  width: 100%;
+  padding: 12px 12px;
+  border: 2px solid rgb(3, 209, 10);
+  border-radius: 5px;
+  font-size: 18px;
+  
+}
+#calculatorDisplay{
+    margin-right:28px;
+}
+  
+#darkModeBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    background-size: cover;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #1a1a19;
+  color: white;
+}
+
+/* Utils below */
+
+.text-center {
+    text-align: center;
+  }
+  
+  .mx-auto {
+    margin: auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
